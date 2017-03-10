@@ -10,7 +10,7 @@ Todo o conteúdo do curso possui uma linguagem clara. As aulas são pensadas gra
 
 ## Sobre as aulas
 
-As aulas do módulo Primeiros passos na Web foram criadas para levar jovens ao início de uma incrível e alucinante jornada na criação de páginas e aplicações para web. :rocket:
+As aulas do módulo Serviços Digitais são mais um passo na jornada de criação de páginas e aplicações para web. :rocket:
 
 ### Aula 01 - [hello world](aulas/aula01/aula.md)
 
