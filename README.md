@@ -10,11 +10,11 @@ Todo o conteúdo do curso possui uma linguagem clara. As aulas são pensadas gra
 
 ## Sobre as aulas
 
-As aulas do módulo Serviços Digitais são mais um passo na jornada de criação de páginas e aplicações para web. :rocket:
+As aulas do módulo Serviços Digitais são mais um passo em nossa incrível jornada na criação de páginas e aplicações para web. :rocket:
 
-### Aula 01 - [hello world](aulas/aula01/aula.md)
+### Aula 01 - [Hello World](aulas/aula01/aula.md)
 
-**Objetivos:** <br>
-**Formato de apresentação:** <br> 
+**Objetivos:** Criar o primeiro Programa em Python.<br>
+**Formato de apresentação:**  <br> 
 **Ferramentas e materiais de apoio:** <br>
 **Duração:** 3 horas.
