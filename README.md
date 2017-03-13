@@ -15,6 +15,6 @@ As aulas do módulo Serviços Digitais são mais um passo em nossa incrível jor
 ### Aula 01 - [Hello World](aulas/aula01/aula.md)
 
 **Objetivos:** Criar o primeiro Programa em Python.<br>
-**Formato de apresentação:**  <br> 
-**Ferramentas e materiais de apoio:** Livro de apoio[Pense em Python](https://penseallen.github.io/PensePython2e/01-jornada.html) <br>
+**Formato de apresentação:**  <br>
+**Ferramentas e materiais de apoio:** Livro de apoio [Pense em Python](https://penseallen.github.io/PensePython2e/01-jornada.html) <br>
 **Duração:** 3 horas.
