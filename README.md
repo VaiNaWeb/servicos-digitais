@@ -12,10 +12,6 @@ Todo o conteúdo do curso possui uma linguagem clara. As aulas são pensadas gra
 
 Nesse módulo vamos criar **Serviços Digitais** com Python.
 
-## Sobre as aulas
-
-As aulas do módulo Serviços Digitais são mais um passo em nossa incrível jornada na criação de páginas e aplicações para web. :rocket:
-
 ### Aula 01 - [Hello World](aulas/aula01/aula.md)
 
 **Objetivos:** Criar o primeiro Programa em Python.<br>
