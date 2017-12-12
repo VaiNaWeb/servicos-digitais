@@ -12,9 +12,9 @@ Todo o conteúdo do curso possui uma linguagem clara. As aulas são pensadas gra
 
 Nesse módulo vamos criar **Serviços Digitais** com Python.
 
-### Aula 01 - [Hello World](aulas/aula01/aula.md)
+### Aula 01 - [Começando com Python](aulas/aula01/aula.md)
 
-**Objetivos:** Criar o primeiro Programa em Python.<br>
+**Objetivos:** Conhecer os fundamentos básicos da linguagem e criar nosso primeiro programa.<br>
 **Formato de apresentação:**  <br>
 **Ferramentas e materiais de apoio:** Livro de apoio [Pense em Python](https://penseallen.github.io/PensePython2e/01-jornada.html) <br>
 **Duração:** 3 horas.
