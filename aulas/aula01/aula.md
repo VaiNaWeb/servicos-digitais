@@ -1,4 +1,4 @@
-##Começando com Python
+# Começando com Python
 
 Python é uma linguagem de programação popular, e bastante poderosa! Ela é usada para muitas coisas diferentes, desde a criação de sites, jogos, robôs, e muito mais. Além de tudo, ela é também uma linguagem muito idiomática, o que é ótimo, pois escrevemos códigos que podem ser compreendidos muito bem por humanos.
 
