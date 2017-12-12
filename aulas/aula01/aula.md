@@ -30,7 +30,7 @@ Diante da ambigüidade, recuse a tentação de adivinhar.
 Deveria haver um — e preferencialmente só um — modo óbvio para fazer algo.
 Embora esse modo possa não ser óbvio a princípio a menos que você seja holandês.
 Agora é melhor que nunca.
-Embora nunca freqüentemente seja melhor que *já*.
+Embora nunca frequentemente seja melhor que *já*.
 Se a implementação é difícil de explicar, é uma má idéia.
 Se a implementação é fácil de explicar, pode ser uma boa idéia.
 Namespaces são uma grande idéia — vamos ter mais dessas!
