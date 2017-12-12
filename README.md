@@ -18,3 +18,10 @@ Nesse módulo vamos criar **Serviços Digitais** com Python.
 **Formato de apresentação:**  <br>
 **Ferramentas e materiais de apoio:** Livro de apoio [Pense em Python](https://penseallen.github.io/PensePython2e/01-jornada.html) <br>
 **Duração:** 3 horas.
+
+### Aula 02 - [Variáveis, Expressões, Instruções](aulas/aula02/aula.md)
+
+**Objetivos:** <br>
+**Formato de apresentação:**  <br>
+**Ferramentas e materiais de apoio:**  <br>
+**Duração:**
