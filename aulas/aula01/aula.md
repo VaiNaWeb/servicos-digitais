@@ -26,7 +26,7 @@ Casos especiais não são especiais o bastante para quebrar as regras.
 Ainda que praticidade vença a pureza.
 Erros nunca devem passar silenciosamente.
 A menos que sejam explicitamente silenciados.
-Diante da ambigüidade, recuse a tentação de adivinhar.
+Diante da ambiguidade, recuse a tentação de adivinhar.
 Deveria haver um — e preferencialmente só um — modo óbvio para fazer algo.
 Embora esse modo possa não ser óbvio a princípio a menos que você seja holandês.
 Agora é melhor que nunca.
