@@ -25,3 +25,10 @@ Nesse módulo vamos criar **Serviços Digitais** com Python.
 **Formato de apresentação:**  <br>
 **Ferramentas e materiais de apoio:**  <br>
 **Duração:**
+
+### Aula 12 - [Criando um banco de dados](aulas/aula12/aula.md)
+
+**Objetivos:** <br>
+**Formato de apresentação:**  <br>
+**Ferramentas e materiais de apoio:**  <br>
+**Duração:**
