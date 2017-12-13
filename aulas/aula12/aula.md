@@ -18,7 +18,16 @@ CREATE DATABASE FavelaFlix;
 
 ## Criando uma tabela
 
-Nosso banco precisa também de tabelas, onde armazenaremos nossos dados, vamos criar uma tabela que armazena os dados dos filmes. Precisamos armazenar em uma tabela os dados referentes ao id, titulo, genero e ano de cada filme, no SQL usamos o comando CREATE TABLE, a sintaxe completa fica assim:
+Nosso banco precisa também de tabelas, onde armazenaremos nossos dados, vamos criar uma tabela que armazena os dados dos filmes. Precisamos armazenar em uma tabela os dados referentes ao titulo, genero e ano de cada filme, no SQL usamos o comando CREATE TABLE, a sintaxe completa fica assim:
+```
+CREATE TABLE filmes (
+    titulo varchar(255),
+    genero varchar(255),
+    ano int
+); 
+```
+
+Para identificar cada filme, precisamos adicionar um id, com a propriedade AUTO_INCREMENT, dessa forma o próprio banco de dados cria esse ID de forma automática. Outra propriedade que precisamos adicionar também é PRIMARY KEY, e adicionar a ela o valor da nossa chave primaria, geralmente o id, assim o id é a nossa primeira chave, que podemos usar para identificar cada filme.
 ```
 CREATE TABLE filmes (
     id int AUTO_INCREMENT,
@@ -45,7 +54,3 @@ SELECT titulo FROM filmes;
 ```
 SELECT * FROM filmes;
 ```
-
-## Atualizando dados
-
-## Deletando dados
