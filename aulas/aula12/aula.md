@@ -11,3 +11,11 @@ Vamos usar como exemplo nessa aula o FavelaFlix, uma aplicação fictícia que o
 ## Criando um banco de dados
 
 O problema, é que nosso banco de dados não existe ainda, então vamos cria-lo!
+
+## Selecionando dados
+
+## Adicionando dados
+
+## Atualizando dados
+
+## Deletando dados
