@@ -20,7 +20,7 @@ CREATE DATABASE FavelaFlix;
 
 Nosso banco precisa também de tabelas, onde armazenaremos nossos dados, vamos criar uma tabela que armazena os dados dos filmes. Precisamos armazenar em uma tabela os dados referentes ao id, titulo, genero e ano de cada filme, no SQL usamos o comando CREATE TABLE, a sintaxe completa fica assim:
 ```
-CREATE TABLE movies (
+CREATE TABLE filmes (
     id int AUTO_INCREMENT,
     titulo varchar(255),
     genero varchar(255),
@@ -38,12 +38,12 @@ VALUES ('Neguinho e Kika','Ficção', 2013);
 
 Para selecionar os dados, usamos o comando SELECT, e indicamos uma ou mais colunas e qual tabela queremos selecionar.
 ```
-SELECT titulo FROM movies;
+SELECT titulo FROM filmes;
 ```
 
 É possível também ao invés de especificar as colunas, selecionar todas as colunas de uma tabela, para isso usamos o seletor universal * fica assim:
 ```
-SELECT * FROM movies;
+SELECT * FROM filmes;
 ```
 
 ## Atualizando dados
