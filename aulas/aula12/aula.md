@@ -36,6 +36,16 @@ VALUES ('Neguinho e Kika','Ficção', 2013);
 
 ## Selecionando dados
 
+Para selecionar os dados, usamos o comando SELECT, e indicamos uma ou mais colunas e qual tabela queremos selecionar.
+```
+SELECT titulo FROM movies;
+```
+
+É possível também ao invés de especificar as colunas, selecionar todas as colunas de uma tabela, para isso usamos o seletor universal * fica assim:
+```
+SELECT * FROM movies;
+```
+
 ## Atualizando dados
 
 ## Deletando dados
