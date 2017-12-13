@@ -10,14 +10,16 @@ Vamos usar como exemplo nessa aula o FavelaFlix, uma aplicação fictícia que o
 
 ## Criando um banco de dados
 
-O problema, é que nosso banco de dados não existe ainda, então vamos cria-lo!
+O problema, é que nosso banco de dados não existe ainda, então vamos cria-lo! Para isso usamos o comando CREATE DATABASE, a sintaxe fica assim:
+
 ```
 CREATE DATABASE FavelaFlix; 
 ```
 
 ## Criando uma tabela
 
-Nosso banco precisa também de tabelas, onde armazenaremos nossos dados, vamos criar uma tabela que armazena os dados dos filmes.
+Nosso banco precisa também de tabelas, onde armazenaremos nossos dados, vamos criar uma tabela que armazena os dados dos filmes. Precisamos armazenar em uma tabela os dados referentes ao id, titulo, genero e ano de cada filme, no SQL usamos o comando CREATE TABLE, a sintaxe completa fica assim:
+
 ```
 CREATE TABLE filmes (
     id int,
