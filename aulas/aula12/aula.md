@@ -11,6 +11,21 @@ Vamos usar como exemplo nessa aula o FavelaFlix, uma aplicação fictícia que o
 ## Criando um banco de dados
 
 O problema, é que nosso banco de dados não existe ainda, então vamos cria-lo!
+```
+CREATE DATABASE FavelaFlix; 
+```
+
+## Criando uma tabela
+
+Nosso banco precisa também de tabelas, onde armazenaremos nossos dados, vamos criar uma tabela que armazena os dados dos filmes.
+```
+CREATE TABLE filmes (
+    id int,
+    titulo varchar(255),
+    genero varchar(255),
+    ano int
+);
+```
 
 ## Selecionando dados
 
