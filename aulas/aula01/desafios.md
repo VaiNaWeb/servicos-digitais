@@ -14,6 +14,10 @@ Leia dois números, depois exiba a soma
 
 Leia dois números, depois calcule a soma deles e atribua uma variável. Depois exiba o valor desta variável.
 
+## Mil e uma noites de amor com o Mozão
+
+Crie um programa que calcula quantas noites de amor um usuário passou com o mozão dele com base na duração de seu relacionamento em meses.
+
 ## Calculando salário
 
 Crie um programa que leia o nome de um funcionário, seu número de horas trabalhadas, o valor que recebe por hora e calcula o salário desse funcionário. Depois mostre o nome desse funcionário seu salário. Não esqueça de mostrar a saída devidamente formatada!
@@ -21,7 +25,3 @@ Crie um programa que leia o nome de um funcionário, seu número de horas trabal
 ## Comprando cachorro-quente
 
 Crie um programa que receba o preço de um cachorro-quente, o nome de um cliente, a quantidade de cachorros-quentes e exiba o valor total que essa pessoa precisa pagar por esse lanche. Lembrando que dinheiro é exibido com sua moeda e em ponto flutuante com duas casas decimais.
-
-## Mil e uma noites de amor com o Mozão
-
-Crie um programa que calcule quantas noites de amor um usuário passou com o mozão dele com base na duração de seu relacionamento em anos e meses.
