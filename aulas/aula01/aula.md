@@ -2,7 +2,7 @@
 
 Python é uma linguagem de programação popular, e bastante poderosa! Ela é usada para muitas coisas diferentes, desde o desenvolvimento de aplicações web, jogos, robôs, e muito mais. Além de tudo, ela é também uma linguagem muito idiomática, e simples, o que é ótimo, pois escrevemos códigos que podem ser compreendidos muito bem por humanos.
 
-O nome da linguagem, caso você que está lendo esteja curioso, ou curiosa, é uma homenagem a uma série chamada [Monty Python](https://pt.wikipedia.org/wiki/Monty_Python%27s_Flying_Circus).
+O nome da linguagem, caso você que está lendo esteja curioso, ou curiosa, é uma homenagem a uma famosa série de comédia chamada [Monty Python](https://pt.wikipedia.org/wiki/Monty_Python%27s_Flying_Circus).
 
 A linguagem Python foi criada inicialmente com o seguinte propósito: ser uma linguagem fácil e intuitiva enquanto que ainda sendo tão poderosa quanto as maiores competidoras, que fosse de código aberto, para que qualquer um possa contribuir para o desenvolvimento, um código que fosse tão inteligível quanto inglês e que fosse adequada para tarefas diárias, permitindo um tempo de desenvolvimento mais curto.
 
