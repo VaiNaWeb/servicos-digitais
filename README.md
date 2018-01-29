@@ -10,7 +10,8 @@ São idealizadas, planejadas e executadas por pessoas que sabem que a informaç�
 
 Todo o conteúdo do curso possui uma linguagem clara. As aulas são pensadas gradativamente, com base em como os alunos de cada turma se sentem, de forma que cada aula, resumo, ou outro material seja realmente empático. O Vai na Web foi criado pelo compromisso de revelar as pessoas, ideias e dons incríveis que ficaram escondidos pelas barreiras da falta de oportunidade.
 
-Nesse módulo vamos criar **Serviços Digitais** com Python.
+Nesse módulo vamos criar **Serviços Digitais** com Python. Ementa prevista: 
+https://docs.google.com/a/precisaser.org/document/d/1bpuQ8R7_QTZEQYYM42w-_-QKogaSE05x9SpNFmv6k2A/edit?usp=sharing
 
 ### Aula 01 - [Começando com Python](aulas/aula01/aula.md)
 
