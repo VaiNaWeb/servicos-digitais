@@ -23,24 +23,76 @@ Nosso banco precisa também de tabelas, onde armazenaremos nossos dados, vamos c
 CREATE TABLE filmes (
     titulo varchar(255),
     genero varchar(255),
-    ano int
+    pais varchar(255),
+    nota tinyint,
+    ano year
 ); 
 ```
+Cada uns dos atributos do filme possui um tipo de dado específico, . Por exemplo, título e gênero são valores textuais enquanto a nota é um número inteiro. Abaixo destacamos os tipos de dados mais utilizados.
 
-Para identificar cada filme, precisamos adicionar um id, com a propriedade AUTO_INCREMENT, dessa forma o próprio banco de dados cria esse ID de forma automática. Outra propriedade que precisamos adicionar também é PRIMARY KEY, e adicionar a ela o valor da nossa chave primaria, geralmente o id, assim o id é a nossa primeira chave, que podemos usar para identificar cada filme.
+**Tipos de data e Hora:**
+
+DATE – armazena datas (YYYY-MM-DD)
+DATETIME – armazena data e hora (YYYY-MM-DD HH:MM:SS)
+TIME – armazena hora (hh:mm:ss)
+YEAR – armazena ano no formato (YYYY)
+
+**Tipos numéricos:**
+TINYINT: armazena de -128 até 127 ou de 0 até 255
+SMALLINT: armazena de -32768 até 32767 ou de 0 até 65535
+MEDIUMINT: armazena de -8388608 até 8388607 ou de 0 até 16777215
+INT: armazena de -2147483648 até 2147483647 ou de 0 até 4294967295
+BIGINT: armazena de -9223372036854775808 até 9223372036854775807 ou de 0 até 2^64-1
+
+**Tipos string:**
+CHAR(M): string de tamanho fixo que é sempre preenchida a direita com espaços até o tamanho especificado quando armazenado
+VARCHAR(M): string de tamanho variável
+
+Para identificar cada filme, precisamos adicionar um id, com a propriedade *AUTO_INCREMENT*, dessa forma o próprio banco de dados cria esse ID de forma automática. Outra propriedade que precisamos adicionar também é *PRIMARY KEY*, e adicionar a ela o valor da nossa chave primaria, geralmente o id, assim o id é a nossa primeira chave, que podemos usar para identificar cada filme.
 ```
 CREATE TABLE filmes (
     id int AUTO_INCREMENT,
     titulo varchar(255),
     genero varchar(255),
-    ano int,
+    pais varchar(255),
+    nota tinyint,
+    ano year,
     PRIMARY KEY (id)
 ); 
 ```
+
+Caso uma propriedade seja abrigatória, inclua *NOT NULL*.
+```
+CREATE TABLE filmes (
+    id int AUTO_INCREMENT,
+    titulo varchar(255) NOT NULL,
+    genero varchar(255),
+    pais varchar(255),
+    nota tinyint,
+    ano year,
+    PRIMARY KEY (id)
+); 
+```
+
 ## Adicionando dados
 ```
-INSERT INTO filmes (titulo, genero, ano)
-VALUES ('Neguinho e Kika','Ficção', 2013);
+INSERT INTO filmes (titulo, genero, ano, pais, nota)
+VALUES ('Neguinho e Kika','Ficção', 2013, 'Brasil', 10);
+
+INSERT INTO filmes (titulo, genero, ano, pais, nota)
+VALUES ('Central do Brasil', 'Drama', 1998, 'Brasil', 3);
+
+INSERT INTO filmes (titulo, genero, ano, pais, nota)
+VALUES ('The Matrix', 'Ficçao Cientifica', 1999, 'Brasil', 5);
+
+INSERT INTO filmes (titulo, genero, ano, pais, nota)
+VALUES ('Jurassic Park', 'Ficçao Cientifica', 1993, 'Estados Unidos', 7);
+
+INSERT INTO filmes (titulo, genero, ano, pais, nota)
+VALUES ('O Senhor dos Aneis - A Sociedade do Anel', 'Fantasia', 2001, 'Estados Unidos', 10);
+
+INSERT INTO filmes (titulo, genero, ano, pais, nota)
+VALUES ('Oldboy', 'Drama', 2003, 'Coreia do Sul', 6);
 ```
 
 ## Selecionando dados
@@ -53,4 +105,41 @@ SELECT titulo FROM filmes;
 É possível também ao invés de especificar as colunas, selecionar todas as colunas de uma tabela, para isso usamos o seletor universal * fica assim:
 ```
 SELECT * FROM filmes;
+```
+
+Para realizar uma busca mais específica podemos utilizar o WHERE e os operadores OR, AND e NOT
+```
+SELECT * FROM filmes WHERE pais = 'Brasil';
+SELECT * FROM filmes WHERE pais = 'Brasil' AND nota >= 5;
+SELECT * FROM filmes WHERE NOT pais = 'Brasil';
+SELECT * FROM filmes WHERE genero = 'Drama' OR genero = 'Ficção Científica';
+```
+
+Podemos também utilizar o ORDER BY para ordenar os nosso resultados
+```
+SELECT * FROM filmes ORDER BY pais;
+SELECT * FROM filmes ORDER BY pais, nota;
+SELECT * FROM filmes WHERE genero = 'Drama' OR genero = 'Ficção Científica' ORDER BY nota DESC;
+```
+
+Pesquisar valores máximos e mínimos com MAX e MIN
+```
+SELECT MAX(nota) FROM filmes;
+SELECT MIN(ano) FROM filmes;
+SELECT MAX(nota) FROM filmes WHERE genero = 'Drama' OR genero = 'Ficção Científica';
+```
+
+Contar quantas linhas atingiram nosso critério de pesquisa com COUNT
+```
+SELECT COUNT(nota) FROM filmes WHERE genero = 'Drama' OR genero = 'Ficção Científica';
+```
+
+Pesquisar um valor dentro de uma lista de valores com IN
+```
+SELECT COUNT(nota) FROM filmes WHERE genero IN('Drama', 'Ficção Científica');
+```
+
+E limitar o tamanho do resultado com LIMIT
+```
+SELECT titulo, nota FROM filmes ORDER BY nota DESC LIMIT 3;
 ```
