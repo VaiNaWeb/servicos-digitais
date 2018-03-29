@@ -134,7 +134,12 @@ Contar quantas linhas atingiram nosso critério de pesquisa com COUNT
 SELECT COUNT(nota) FROM filmes WHERE genero = 'Drama' OR genero = 'Ficção Científica';
 ```
 
-E pesquisar um valor dentro de uma lista de valores com IN
+Pesquisar um valor dentro de uma lista de valores com IN
 ```
 SELECT COUNT(nota) FROM filmes WHERE genero IN('Drama', 'Ficção Científica');
+```
+
+E limitar o tamanho do resultado com LIMIT
+```
+SELECT titulo, nota FROM filmes ORDER BY nota DESC LIMIT 3;
 ```
