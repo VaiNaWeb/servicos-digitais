@@ -12,24 +12,3 @@ Todo o conteúdo do curso possui uma linguagem clara. As aulas são pensadas gra
 
 Nesse módulo vamos criar **Serviços Digitais** com Python. Ementa prevista: 
 https://docs.google.com/a/precisaser.org/document/d/1bpuQ8R7_QTZEQYYM42w-_-QKogaSE05x9SpNFmv6k2A/edit?usp=sharing
-
-### Aula 01 - [Começando com Python](aulas/aula01/aula.md)
-
-**Objetivos:** Conhecer os fundamentos básicos da linguagem e criar nosso primeiro programa.<br>
-**Formato de apresentação:**  <br>
-**Ferramentas e materiais de apoio:** Livro de apoio [Pense em Python](https://penseallen.github.io/PensePython2e/01-jornada.html) <br>
-**Duração:** 3 horas.
-
-### Aula 02 - [Variáveis, Expressões, Instruções](aulas/aula02/aula.md)
-
-**Objetivos:** <br>
-**Formato de apresentação:**  <br>
-**Ferramentas e materiais de apoio:**  <br>
-**Duração:**
-
-### Aula 12 - [Criando um banco de dados](aulas/aula12/aula.md)
-
-**Objetivos:** <br>
-**Formato de apresentação:**  <br>
-**Ferramentas e materiais de apoio:**  <br>
-**Duração:**
